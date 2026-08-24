@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="10">
+<mxfile host="app.diagrams.net" pages="6">
   <diagram name="cdm dma" id="w511FfUVGHysf6Phj4AV">
     <mxGraphModel dx="34069" dy="12682" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -22924,44 +22924,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="第 6 页" id="yGO_1zHzygTcFo94blpT">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <UserObject label="Object" link="data:page/id,walYa1PDaxBuBoTVHT0i" id="-9Z0Jr9gOfHqcNjGO6-r-1">
-          <mxCell parent="1" style="html=cdm_dma;whiteSpace=wrap;" vertex="1">
-            <mxGeometry height="50" width="110" x="360" y="400" as="geometry" />
-          </mxCell>
-        </UserObject>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram name="第 7 页" id="walYa1PDaxBuBoTVHT0i">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="TwNbRUgwY8HDZKpnP8Fs" name="第 8 页">
-    <mxGraphModel dx="1414" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="-mY-t1d-rmqy0Ewg9p8X" name="第 9 页">
-    <mxGraphModel dx="1414" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="DrksUOWPm0eiXxVrwxez" name="第 10 页">
+  <diagram id="-uNU7Ukt28OpZYXQpEfo" name="img">
     <mxGraphModel dx="1414" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
