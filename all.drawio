@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="6">
+<mxfile host="app.diagrams.net" pages="7">
   <diagram name="cdm dma" id="w511FfUVGHysf6Phj4AV">
     <mxGraphModel dx="34069" dy="12682" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -22929,6 +22929,113 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fT2SqSc7D4kq6lP7hQOY" name="temp">
+    <mxGraphModel dx="1414" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uHOZcHknNcsUUZChXXcF-2" parent="1" style="shape=mxgraph.basic.polygon;polyCoords=[[0.68333,0],[1,0.125],[0.7881,0.4],[0.89524,0.5],[0.89524,0.6],[0.89524,0.6],[1,0.6],[1,0.7],[1,0.8],[1,1],[0.89524,0.9],[0.7881,0.9],[0.57619,0.6],[0.36429,0.8],[0.25952,0.6],[0.19048,0.6],[0.09524,0.55],[0.09524,0.65],[0.04762,0.7],[0,0.55],[0.04762,0.25],[0.36429,0.5],[0.36429,0.4],[0.25952,0.4],[0.36429,0.2],[0.38095,0.05],[0.57619,0.2]];polyCurves=[[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]];polyline=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#51FF9C;" value="" vertex="1">
+          <mxGeometry height="80" width="84" x="356" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-3" parent="1" style="swimlane;startSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;" value="&lt;b&gt;AXI Master&#xd;(&lt;font color=&quot;#0050ef&quot;&gt;Initiator&lt;/font&gt;)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="520" width="300" x="370" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-4" parent="uHOZcHknNcsUUZChXXcF-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;" value="Master Controller&#xd;&amp; Sequencer" vertex="1">
+          <mxGeometry height="60" width="240" x="30" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-5" parent="uHOZcHknNcsUUZChXXcF-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Read Address Channel&#xd;(ARVALID / ARREADY / ARADDR...)" vertex="1">
+          <mxGeometry height="50" width="240" x="30" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-6" parent="uHOZcHknNcsUUZChXXcF-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Read Data Channel&#xd;(RVALID / RREADY / RDATA / RRESP)" vertex="1">
+          <mxGeometry height="50" width="240" x="30" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-7" parent="uHOZcHknNcsUUZChXXcF-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Write Address Channel&#xd;(AWVALID / AWREADY / AWADDR...)" vertex="1">
+          <mxGeometry height="50" width="240" x="30" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-8" parent="uHOZcHknNcsUUZChXXcF-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Write Data Channel&#xd;(WVALID / WREADY / WDATA / WSTRB)" vertex="1">
+          <mxGeometry height="50" width="240" x="30" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-9" parent="uHOZcHknNcsUUZChXXcF-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Write Response Channel&#xd;(BVALID / BREADY / BRESP)" vertex="1">
+          <mxGeometry height="50" width="240" x="30" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-10" parent="1" style="swimlane;startSize=30;fillColor=#f5f5f5;strokeColor=#666666;html=1;" value="&lt;b&gt;AXI Interconnect / Switch&lt;/b&gt;" vertex="1">
+          <mxGeometry height="520" width="360" x="730" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-11" parent="uHOZcHknNcsUUZChXXcF-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;" value="Arbitration &amp; Decoding Logic" vertex="1">
+          <mxGeometry height="60" width="300" x="30" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-12" parent="uHOZcHknNcsUUZChXXcF-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="AR Routing" vertex="1">
+          <mxGeometry height="50" width="300" x="30" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-13" parent="uHOZcHknNcsUUZChXXcF-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="R Routing" vertex="1">
+          <mxGeometry height="50" width="300" x="30" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-14" parent="uHOZcHknNcsUUZChXXcF-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="AW Routing" vertex="1">
+          <mxGeometry height="50" width="300" x="30" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-15" parent="uHOZcHknNcsUUZChXXcF-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="W Data FIFO / Multiplexer" vertex="1">
+          <mxGeometry height="50" width="300" x="30" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-16" parent="uHOZcHknNcsUUZChXXcF-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="B Response Routing" vertex="1">
+          <mxGeometry height="50" width="300" x="30" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-17" parent="1" style="swimlane;startSize=30;fillColor=#d5e8d4;strokeColor=#82b366;html=1;" value="&lt;b&gt;AXI Slave&#xd;(&lt;font color=&quot;#d79b00&quot;&gt;Target / Memory&lt;/font&gt;)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="520" width="300" x="1150" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-18" parent="uHOZcHknNcsUUZChXXcF-17" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;" value="Slave Interface Controller" vertex="1">
+          <mxGeometry height="60" width="240" x="30" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-19" parent="uHOZcHknNcsUUZChXXcF-17" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Read Address Interface" vertex="1">
+          <mxGeometry height="50" width="240" x="30" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-20" parent="uHOZcHknNcsUUZChXXcF-17" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Read Data Interface" vertex="1">
+          <mxGeometry height="50" width="240" x="30" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-21" parent="uHOZcHknNcsUUZChXXcF-17" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Write Address Interface" vertex="1">
+          <mxGeometry height="50" width="240" x="30" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-22" parent="uHOZcHknNcsUUZChXXcF-17" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Write Data Interface" vertex="1">
+          <mxGeometry height="50" width="240" x="30" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-23" parent="uHOZcHknNcsUUZChXXcF-17" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Write Response Interface" vertex="1">
+          <mxGeometry height="50" width="240" x="30" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-24" edge="1" parent="1" source="uHOZcHknNcsUUZChXXcF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d6b656;strokeWidth=2;" target="uHOZcHknNcsUUZChXXcF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-25" edge="1" parent="1" source="uHOZcHknNcsUUZChXXcF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d6b656;strokeWidth=2;" target="uHOZcHknNcsUUZChXXcF-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-26" edge="1" parent="1" source="uHOZcHknNcsUUZChXXcF-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d6b656;strokeWidth=2;" target="uHOZcHknNcsUUZChXXcF-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-27" edge="1" parent="1" source="uHOZcHknNcsUUZChXXcF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d6b656;strokeWidth=2;" target="uHOZcHknNcsUUZChXXcF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-28" edge="1" parent="1" source="uHOZcHknNcsUUZChXXcF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d79b00;strokeWidth=2;" target="uHOZcHknNcsUUZChXXcF-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-29" edge="1" parent="1" source="uHOZcHknNcsUUZChXXcF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d79b00;strokeWidth=2;" target="uHOZcHknNcsUUZChXXcF-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-30" edge="1" parent="1" source="uHOZcHknNcsUUZChXXcF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d79b00;strokeWidth=2;" target="uHOZcHknNcsUUZChXXcF-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-31" edge="1" parent="1" source="uHOZcHknNcsUUZChXXcF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d79b00;strokeWidth=2;" target="uHOZcHknNcsUUZChXXcF-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-32" edge="1" parent="1" source="uHOZcHknNcsUUZChXXcF-23" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d79b00;strokeWidth=2;" target="uHOZcHknNcsUUZChXXcF-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-33" edge="1" parent="1" source="uHOZcHknNcsUUZChXXcF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#d79b00;strokeWidth=2;" target="uHOZcHknNcsUUZChXXcF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHOZcHknNcsUUZChXXcF-34" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundId=1;fillColor=#fff2cc;strokeColor=#d6b656;size=20;align=left;spacingLeft=10;" value="AMBA AXI Protocol consists of 5 independent transaction channels:&#xd;- Read Address (AR) &amp; Read Data (R)&#xd;- Write Address (AW), Write Data (W) &amp; Write Response (B)" vertex="1">
+          <mxGeometry height="70" width="1080" x="370" y="900" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
