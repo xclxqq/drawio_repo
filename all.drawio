@@ -23870,19 +23870,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BjKv2VOQC6IKlfv_6qOS-55" edge="1" parent="1" source="BjKv2VOQC6IKlfv_6qOS-2" style="edgeStyle=orthogonalEdgeStyle;shape=wire;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="269" y="370" />
-            </Array>
-            <mxPoint x="20" y="370" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BjKv2VOQC6IKlfv_6qOS-56" connectable="0" parent="BjKv2VOQC6IKlfv_6qOS-55" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="fcdec" vertex="1">
-          <mxGeometry relative="1" x="0.6817" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="BjKv2VOQC6IKlfv_6qOS-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Instruction&lt;div&gt;Store&lt;/div&gt;" vertex="1">
           <mxGeometry height="150" width="120" x="209" y="180" as="geometry" />
         </mxCell>
