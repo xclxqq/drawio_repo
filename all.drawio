@@ -24453,9 +24453,9 @@
         <mxCell id="NI8pbUAgtb57dnvUPBnV-17" edge="1" parent="1" source="NI8pbUAgtb57dnvUPBnV-11" style="edgeStyle=none;shape=wire;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" target="NI8pbUAgtb57dnvUPBnV-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NI8pbUAgtb57dnvUPBnV-35" connectable="0" parent="NI8pbUAgtb57dnvUPBnV-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="fq_ceu" vertex="1">
+        <mxCell id="NI8pbUAgtb57dnvUPBnV-35" connectable="0" parent="NI8pbUAgtb57dnvUPBnV-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="fq_ceu&amp;nbsp;&lt;div&gt;instructions&lt;/div&gt;&lt;div&gt;(cond,phase,end)&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.4571" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NI8pbUAgtb57dnvUPBnV-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Common Fence Queue" vertex="1">
@@ -24555,6 +24555,21 @@
         </mxCell>
         <mxCell id="NI8pbUAgtb57dnvUPBnV-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Conditional Execution&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Unit&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="186" x="360" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="NI8pbUAgtb57dnvUPBnV-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MAU" vertex="1">
+          <mxGeometry height="60" width="120" x="255" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="NI8pbUAgtb57dnvUPBnV-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MAU" vertex="1">
+          <mxGeometry height="60" width="120" x="265" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="NI8pbUAgtb57dnvUPBnV-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MAU" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="NI8pbUAgtb57dnvUPBnV-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NUM_SPAGS" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="NI8pbUAgtb57dnvUPBnV-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NUM_SPAGS" vertex="1">
+          <mxGeometry height="30" width="60" x="245" y="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
